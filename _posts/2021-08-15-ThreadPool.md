@@ -1,4 +1,4 @@
-![](https://github.com/haoyutc/haoyutc.github.io/blob/master/images/404.jpg)
+![](https://github.com/haoyutc/haoyutc.github.io/blob/master/images/TreadPoolExecutor执行示意图.png)
 
 ### 什么是线程池？
 
@@ -28,7 +28,7 @@
 
 ### 简介
 
-![](https://upic-1257948216.cos.ap-chengdu.myqcloud.com/uPic/ScheduledThreadPoolExecutor.png)
+![](https://github.com/haoyutc/haoyutc.github.io/blob/master/images/ScheduledThreadPoolExecutor.png)
 
 - Executor：一个接口，其定义了一个接收 Runnable 对象的方法 executor，其方法签名为 executor(Runnable command),
 - ExecutorService：是一个比 Executor 使用更广泛的子类接口，其提供了生命周期管理的方法，以及可跟踪一个或多个异步任务执行状况返回 Future 的方法。
@@ -105,7 +105,7 @@ threadsPool.execute(new Runnable() {
         });
 ```
 
-![](https://upic-1257948216.cos.ap-chengdu.myqcloud.com/uPic/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
+![](https://github.com/haoyutc/haoyutc.github.io/blob/master/images/线程池处理流程.png)
 
 我们也可以使用 `submit` 方法来提交任务，它会返回一个 `Future` ，那么我们可以通过这个 `Future` 来判断任务是否执行成功。
 
