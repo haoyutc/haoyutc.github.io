@@ -1,0 +1,5 @@
+pod与集群节点的自动伸缩？
+
+横向扩容：通过设置ReplicationController、ReplicaSet、Deployment等可伸缩资源的replicas字段，来手动实现pod中应用的横向扩容。
+
+纵向扩容：通过增加pod容器的资源请求和限制来纵向扩容pod。
