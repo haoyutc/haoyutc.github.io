@@ -1,5 +1,9 @@
 - Rainbow Brackets
 - GitToolBox
-- CodeGlance
+- Git Commit Template
+- CodeGlance Pro
 - Background Image Plus+
+- Camelcase
+- Transaction
+- Activate-power-mode-x
 
