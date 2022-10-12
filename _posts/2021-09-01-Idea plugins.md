@@ -6,4 +6,6 @@
 - Camelcase
 - Transaction
 - Activate-power-mode-x
+- Prettier
+- CamelCase
 
